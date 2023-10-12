@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #d2dbdd;
+}
+
+.heading{
+  background-color: gray;
+  color: #868686;
+  background-color: #fff;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.pic{
+  width: 350px;
+  height: 270px;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+
+.card{
+  margin: 4%;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background-color: #fff;
+  width: 24.32%;
+  border-radius: 12px;
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+  float: left;
+}
+
+.card:hover{
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1) ;
+  transform: scale(1.05,1.05);
+}
+
+.info{
+  margin: 3% 10%;
+  background-color: #fff;
+}
+h2,span{
+  background-color: white;
+}
+
+.watch-btn{
+  width: 150px;
+  height: 40px;
+  margin-top: 8px;
+  color: gray;
+  font-size: 17px;
+  font-weight: 500;
+  border: 2px solid black;
+  background-color: #fff;
+  cursor: pointer;
+}
+.watch-btn:hover{
+  background-color: rgb(161, 155, 155);
+  color: white;
+} 
+
+@media screen and (max-width: 768px) {
+  .card {
+    float: none;
+    width: 90%;
+    margin: 5%;  
+  }
+}
+
+/* @media screen and (max-width: 576px) {
+  .card {
+    float: none;
+    width: 90%;
+    margin: 3%; 
+  }
+
+} */
+
